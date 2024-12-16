@@ -1,0 +1,41 @@
+{
+  "extension_name": {
+    "message": "Videochat Extension FreeCM"
+  },
+  "extension_description": {
+    "message": "Небольшое расширение для бесплатного видеочата CooMeet, которое пытается различать ботов и людей."
+  },
+  "freecmBotButton": {
+    "message": "СКОРЕЕ ВСЕГО БОТ ($1)"
+  },
+  "freecmBotButtonFixAge": {
+    "message": "БОТ, ИСПРАВЬ ВОЗРАСТ (НАЖМИ СИНИЮ КНОПКУ) ($1)"
+  },
+  "freecmBotButtonReset": {
+    "message": "Найти собеседника"
+  },
+  "freecmBotNextButton": {
+    "message": "Следующий (сейчас: $1)"
+  },
+  "freecmSettingMuteBots": {
+    "message": "Отключать звук бота"
+  },
+  "freecmSettingMuteTooltip": {
+    "message": "Автоматически отключать звук при обнаружении бота"
+  },
+  "freecmSettingHideVideo": {
+    "message": "Скрывать видео бота"
+  },
+  "freecmSettingHideVideoTooltip": {
+    "message": "Автоматически скрывать видео при обнаружении бота"
+  },
+  "alternative_driver_desc": {
+    "message": "Это альтернативный режим Videochat Extension FreeCM. Он не зависит от изменений пользовательского интерфейса сайта, поэтому если основной режим перестанет работать, этот режим всё ещё мо��ет быть полезен. Если что-то пойдёт не так, создайте issue на $1."
+  },
+  "warning_title": {
+    "message": "⚠️ ВНИМАНИЕ ⚠️"
+  },
+  "warning_message": {
+    "message": "Вы собираетесь модифицировать страницу сайта, чтобы позволить VIDEOCHAT EXTENSION FREECM различать ботов и людей. Нажимая 'OK', вы подтверждаете, что:\n\n1. Это расширение предоставляется 'как есть', без каких-либо гарантий (лицензия MIT).\n2. Вы несёте полную ответственность за последствия его использования.\n\nПродолжить?\n\nПРИМЕЧАНИЕ: Если что-то сломается, создайте issue на https://github.com/videochat-extension/videochat-extension-freecm"
+  }
+}

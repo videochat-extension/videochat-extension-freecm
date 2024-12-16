@@ -1,0 +1,41 @@
+{
+  "extension_name": {
+    "message": "Videochat Extension FreeCM"
+  },
+  "extension_description": {
+    "message": "A small extension for the free CooMeet video chat that attempts to distinguish bots from humans."
+  },
+  "freecmBotButton": {
+    "message": "BOT DETECTED ($1)"
+  },
+  "freecmBotButtonFixAge": {
+    "message": "BOT, FIX YOUR AGE (CLICK BLUE BUTTON) ($1)"
+  },
+  "freecmBotButtonReset": {
+    "message": "Find a chat partner"
+  },
+  "freecmBotNextButton": {
+    "message": "Next (current: $1)"
+  },
+  "freecmSettingMuteBots": {
+    "message": "Mute bot audio"
+  },
+  "freecmSettingMuteTooltip": {
+    "message": "Automatically mute audio when bot is detected"
+  },
+  "freecmSettingHideVideo": {
+    "message": "Hide bot video"
+  },
+  "freecmSettingHideVideoTooltip": {
+    "message": "Automatically hide video when bot is detected"
+  },
+  "alternative_driver_desc": {
+    "message": "This is an alternative mode for the Videochat Extension. It does not depend on the website's UI changes, so if main mode breaks this should still be helpful. If something goes wrong, please create an issue on $1."
+  },
+  "warning_title": {
+    "message": "⚠️ WARNING ⚠️"
+  },
+  "warning_message": {
+    "message": "You are about to modify the website's page to allow VIDEOCHAT EXTENSION FREECM to differentiate bots from humans. By clicking 'OK', you acknowledge that:\n\n1. This extension is provided 'as is', without warranty of any kind (MIT License).\n2. Any consequences of using it are your own responsibility.\n\nDo you want to proceed?\n\nNOTE: If something breaks, report the issue at https://github.com/videochat-extension/videochat-extension-freecm"
+  }
+}

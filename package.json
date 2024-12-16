@@ -1,0 +1,28 @@
+{
+  "name": "videochat-extension-freecm",
+  "version": "1.0.0",
+  "description": "A small extension for the free CooMeet video chat that attempts to distinguish bots from humans.",
+  "scripts": {
+    "ext:chrome": "rimraf webpack_builds/release_chrome && cross-env BROWSER='chrome' DIR='webpack_builds/release_chrome' webpack --config webpack/webpack.prod.js",
+    "ext:chrome-dev": "cross-env BROWSER='chrome' DIR='webpack_builds/dist_chrome' webpack --config webpack/webpack.dev.js",
+    "ext:chrome-dev-watch": "cross-env BROWSER='chrome' DIR='webpack_builds/dist_chrome' webpack --config webpack/webpack.dev.js --watch"
+  },
+  "dependencies": {
+    "arrive": "2.4.1",
+    "dompurify": "^3.2.3",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "@types/arrive": "2.4.1",
+    "@types/chrome": "^0.0.246",
+    "@types/dompurify": "^3.0.5",
+    "@types/jquery": "^3.5.32",
+    "copy-webpack-plugin": "^12.0.2",
+    "cross-env": "^7.0.3",
+    "rimraf": "^6.0.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

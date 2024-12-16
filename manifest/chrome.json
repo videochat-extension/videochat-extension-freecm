@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extension_name__",
+  "version": "1.0.0",
+  "description": "__MSG_extension_description__",
+  "default_locale": "en",
+  "permissions": [
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.free.coomeet.com/*",
+    "https://*.rusvideochat.ru/*",
+    "https://*.video-roulette24.ru/*",
+    "https://*.chatroulette.msk.ru/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.free.coomeet.com/*",
+        "https://*.rusvideochat.ru/*",
+        "https://*.video-roulette24.ru/*",
+        "https://*.chatroulette.msk.ru/*"
+      ],
+      "js": [
+        "vendor.js",
+        "content_script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
