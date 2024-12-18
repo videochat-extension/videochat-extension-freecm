@@ -24,7 +24,7 @@ This extension is distributed under the MIT open source license, even though the
 
 ## Installation
 
-1. Download from the Chrome Web Store
+1. Install from [Chrome Web Store](https://chromewebstore.google.com/detail/clgikgkaahknmgmonhnfoopplaclefil)
 
 ## Usage
 
